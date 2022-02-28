@@ -1,0 +1,228 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #ECF7FF;
+  margin: 0;
+}
+
+body section {
+  scroll-margin-top: 50px;
+}
+
+body hr {
+  border-top: 8px solid #B0DEFF;
+  width: 80%;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+body nav .nav-link {
+  background-color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body nav .nav-link:hover {
+  -webkit-box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body nav .nav-link p {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  color: #000000 !important;
+}
+
+body #beranda .img-profile {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/img-profile.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+body #beranda h2 {
+  position: relative;
+}
+
+body #beranda h2 strong {
+  -webkit-transition: all .3 ease;
+  transition: all .3 ease;
+}
+
+body #beranda h2 strong:after {
+  content: '';
+  margin: 0 auto;
+  left: 35px;
+  right: 0;
+  position: absolute;
+  height: 8px;
+  width: 80px;
+  background: #B0DEFF;
+  bottom: 0px;
+  border-radius: 2px;
+  z-index: -1;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+body #beranda h2 strong:hover:after {
+  height: 20px;
+  -webkit-transition: height .3s ease;
+  transition: height .3s ease;
+}
+
+body #beranda p {
+  font-size: 24px;
+}
+
+body #keahlian h3 {
+  font-weight: bolder;
+}
+
+body #keahlian .skill {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body #keahlian .skill:hover {
+  -webkit-box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body #keahlian .skill p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+  display: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body #keahlian .skill:hover img {
+  opacity: 0;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body #keahlian .skill:hover p {
+  opacity: 1;
+  display: block;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto 0;
+}
+
+body #projek .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 10px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body #projek .card:hover {
+  -webkit-box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body #projek .card h5 {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body #projek .card p {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  display: none;
+}
+
+body #projek .card:hover {
+  background-color: #B0DEFF;
+}
+
+body #projek .card:hover h5,
+body #projek .card:hover img {
+  display: none;
+}
+
+body #projek .card:hover p {
+  color: #000000;
+  display: block;
+}
+
+body #projek .card:hover p a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+body #kontak .btn {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -5px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+body #kontak .btn:hover {
+  -webkit-box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+          box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.25), inset 4px 6px 8px rgba(176, 222, 255, 0.75);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+body #kontak .btn i {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  color: #3B5FA6;
+}
+
+body #kontak .btn:hover i {
+  color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
